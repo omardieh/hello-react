@@ -1,0 +1,67 @@
+.welcome-card {
+  background-color: black;
+  color: white;
+  height: 100%;
+  width: calc(100% - 8em);
+  margin: 2em;
+  padding: 2em;
+}
+
+.welcome-card nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: auto 2em;
+  margin-bottom: 4em;
+}
+
+.welcome-card img {
+  height: 100%;
+  margin: auto 0;
+}
+
+.text-container {
+  max-width: 40%;
+}
+
+.text-container h1 {
+  font-size: 2.5em;
+}
+
+.text-container button {
+  padding: 1em;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  margin-top: 2em;
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.features-section .icon-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.features-section h2 {
+  font-size: 2em;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.features-section p {
+  max-width: 60%;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.features-section img {
+  margin-left: 0;
+  max-width: 60%;
+}
